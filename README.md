@@ -13,7 +13,10 @@ Modular `.cursorrules` files for consistent AI-assisted development across proje
 Copy all files to your project root:
 
 ```bash
-curl -L -O https://raw.githubusercontent.com/arnoldcano/cursorrules/main/.cursorrules -O https://raw.githubusercontent.com/arnoldcano/cursorrules/main/.cursorrules_best_practices -O https://raw.githubusercontent.com/arnoldcano/cursorrules/main/.cursorrules_hallucinations
+curl -L \
+  -O https://raw.githubusercontent.com/arnoldcano/cursorrules/main/.cursorrules \
+  -O https://raw.githubusercontent.com/arnoldcano/cursorrules/main/.cursorrules_best_practices \
+  -O https://raw.githubusercontent.com/arnoldcano/cursorrules/main/.cursorrules_hallucinations
 ```
 
 That's it! Your project now has comprehensive AI assistant rules.
